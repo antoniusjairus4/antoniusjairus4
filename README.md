@@ -144,16 +144,23 @@ Alzheimer's disease prediction.
 
 **PROOF OF WORK. NOT PROMISES.**
 
-A live record of commits, experiments, and shipped progress.  
-This section updates automatically and reflects my GitHub activity over time.
+A live contribution calendar in ocean blue, turquoise, and mint. Each square reflects your daily GitHub activity; higher contribution levels appear brighter. Refreshed automatically.
 
 <div align="center">
 
-<img
-  src="./assets/build-log.svg"
-  width="100%"
-  alt="Antonius Jairus GitHub contribution calendar and recent activity"
-/>
+<img src="./assets/build-log.svg" width="100%" alt="Live GitHub contribution intensity calendar, from dark blue to bright seafoam" />
+
+<br/>
+
+#### THE KOI / CODE IN MOTION
+
+A pixel-art koi shaped by the languages, activity, and streaks behind the work. Recreated daily from public GitHub contributions.
+
+<img src="./koi/koi.gif" width="256" alt="Git Koi evolving from my public GitHub contributions" />
+
+<br/>
+
+<sub>BUILD · COMMIT · EVOLVE</sub>
 
 </div>
 

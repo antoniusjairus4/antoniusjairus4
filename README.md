@@ -88,33 +88,7 @@ Exploring multimodal machine learning approaches to Alzheimer's disease research
 
 <div align="center">
 
-**LANGUAGES**
-
-![C++](https://img.shields.io/badge/C++-247FBB?style=flat-square&logo=cplusplus&logoColor=FF5722)
-![Python](https://img.shields.io/badge/Python-1AB9C6?style=flat-square&logo=python&logoColor=FF5722)
-![JavaScript](https://img.shields.io/badge/JavaScript-6DE8A5?style=flat-square&logo=javascript&logoColor=FF5722)
-![TypeScript](https://img.shields.io/badge/TypeScript-6559A8?style=flat-square&logo=typescript&logoColor=FF5722)
-![Java](https://img.shields.io/badge/Java-19517E?style=flat-square&logo=openjdk&logoColor=FF5722)
-
-<br/>
-
-**FRONTEND & CREATIVE**
-
-![React](https://img.shields.io/badge/React-36A76F?style=flat-square&logo=react&logoColor=FF5722)
-![Next.js](https://img.shields.io/badge/Next.js-247FBB?style=flat-square&logo=nextdotjs&logoColor=FF5722)
-![Three.js](https://img.shields.io/badge/Three.js-1AB9C6?style=flat-square&logo=threedotjs&logoColor=FF5722)
-![Tailwind](https://img.shields.io/badge/Tailwind-6DE8A5?style=flat-square&logo=tailwindcss&logoColor=FF5722)
-![GSAP](https://img.shields.io/badge/GSAP-6559A8?style=flat-square&logo=greensock&logoColor=FF5722)
-
-<br/>
-
-**BACKEND & TOOLS**
-
-![Node.js](https://img.shields.io/badge/Node.js-19517E?style=flat-square&logo=nodedotjs&logoColor=FF5722)
-![Supabase](https://img.shields.io/badge/Supabase-36A76F?style=flat-square&logo=supabase&logoColor=FF5722)
-![MongoDB](https://img.shields.io/badge/MongoDB-247FBB?style=flat-square&logo=mongodb&logoColor=FF5722)
-![Git](https://img.shields.io/badge/Git-1AB9C6?style=flat-square&logo=git&logoColor=FF5722)
-![Linux](https://img.shields.io/badge/Linux-6DE8A5?style=flat-square&logo=linux&logoColor=FF5722)
+<img src="./assets/toolkit-grand.svg" width="100%" alt="Full-width engineering toolkit featuring core programming languages, frontend frameworks, creative development, backend and workflow tools in blue, violet and mint" />
 
 </div>
 

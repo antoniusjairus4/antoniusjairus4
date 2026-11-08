@@ -180,6 +180,16 @@ A living pixel-art koi influenced by public contributions, languages and streaks
 
 <img src="./koi/koi.gif" width="380" alt="Animated Git Koi reflecting GitHub activity" />
 
+**BYTE / THE COMMIT PET**
+
+An animated pixel companion that levels up with my actual GitHub contributions.
+
+<a href="https://github.com/yukurash/commit-pet">
+<img src="./assets/commit-pet.svg" width="480" alt="Byte, a cyan pixel cat that bobs and blinks, with level, streak, and contribution data generated daily from my GitHub activity" />
+</a>
+
+<sub>BYTE × GIT KOI · TWO LITTLE COMPANIONS IN THE BUILD LOG</sub>
+
 <sub>BUILD · COMMIT · EVOLVE</sub>
 
 </div>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="752" viewBox="0 0 960 752" role="img" aria-label="Full-width development toolkit with languages, creative frontend, backend and workflow tools">
+<defs>
+ <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101E30"/><stop offset=".6" stop-color="#090F19"/><stop offset="1" stop-color="#0B1620"/></linearGradient>
+ <linearGradient id="spectrum" x1="0" y1="0" x2="1"><stop stop-color="#4BAEF7"/><stop offset=".5" stop-color="#AE93EF"/><stop offset="1" stop-color="#70E4BD"/></linearGradient>
+ <radialGradient id="aura"><stop stop-color="#317AA2" stop-opacity=".20"/><stop offset="1" stop-color="#317AA2" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="27" height="27" patternUnits="userSpaceOnUse"><path d="M27 0H0V27" fill="none" stroke="#8AABC0" stroke-opacity=".075"/></pattern>
+</defs>
+<rect x="1" y="1" width="958" height="750" rx="25" fill="url(#canvas)" stroke="#274558"/>
+<rect x="2" y="2" width="956" height="748" rx="24" fill="url(#grid)"/>
+<ellipse cx="785" cy="105" rx="210" ry="115" fill="url(#aura)"/>
+<rect x="28" y="1" width="904" height="3" rx="2" fill="url(#spectrum)"/>
+<text x="48" y="47" font-family="Consolas,monospace" font-size="14" letter-spacing="3" font-weight="700" fill="#69D8D9">03 / THE TOOLKIT  —  ENGINEERING SYSTEMS</text>
+<text x="46" y="106" font-family="Segoe UI,Arial,sans-serif" font-size="47" font-weight="800" fill="#ECF8FF" letter-spacing="-1">THE STACK BEHIND THE WORK</text>
+<text x="48" y="137" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#98B5C8">The languages, frameworks, and tools I use to turn ideas into working products.</text>
+<g>
+<rect x="28" y="164" width="904" height="166" rx="21" fill="#101E2D" stroke="#54BAFF" stroke-opacity=".29"/>
+<rect x="29" y="184" width="4" height="125" rx="2" fill="#54BAFF"/>
+<path d="M326 184V309" stroke="#345065" stroke-opacity=".8"/>
+<rect x="48" y="187" width="66" height="23" rx="7" fill="#54BAFF" fill-opacity=".15"/>
+<text x="62" y="205" fill="#54BAFF" font-family="Consolas,monospace" font-size="15" letter-spacing="1.2" font-weight="700">01 / 03</text>
+<text x="48" y="243" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="800">LANGUAGES</text>
+<text x="48" y="267" fill="#92ACBF" font-family="Consolas,monospace" font-size="11.5" letter-spacing=".5">FOUNDATIONS / IMPLEMENTATION</text>
+<g transform="translate(209 222)" opacity=".3"><path d="M30 13 l-17 18 17 18 M65 13 l17 18 -17 18 M57 10 l-15 44" fill="none" stroke="#54BAFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g><rect x="347" y="189" width="173" height="54" rx="12" fill="#3286C5" fill-opacity=".12" stroke="#3286C5" stroke-opacity=".42"/><rect x="357" y="202" width="4" height="28" rx="2" fill="#3286C5"/><text x="370" y="223" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="22">C++</text></g><g><rect x="534" y="189" width="173" height="54" rx="12" fill="#34A7E1" fill-opacity=".12" stroke="#34A7E1" stroke-opacity=".42"/><rect x="544" y="202" width="4" height="28" rx="2" fill="#34A7E1"/><text x="557" y="223" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="22">Python</text></g><g><rect x="721" y="189" width="173" height="54" rx="12" fill="#32C4C2" fill-opacity=".12" stroke="#32C4C2" stroke-opacity=".42"/><rect x="731" y="202" width="4" height="28" rx="2" fill="#32C4C2"/><text x="744" y="223" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="19">JavaScript</text></g><g><rect x="347" y="253" width="173" height="54" rx="12" fill="#5B83D4" fill-opacity=".12" stroke="#5B83D4" stroke-opacity=".42"/><rect x="357" y="266" width="4" height="28" rx="2" fill="#5B83D4"/><text x="370" y="287" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="19">TypeScript</text></g><g><rect x="534" y="253" width="173" height="54" rx="12" fill="#9A8DE8" fill-opacity=".12" stroke="#9A8DE8" stroke-opacity=".42"/><rect x="544" y="266" width="4" height="28" rx="2" fill="#9A8DE8"/><text x="557" y="287" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="22">Java</text></g>
+<path d="M835 317H910" stroke="#54BAFF" stroke-opacity=".55" stroke-width="2"/>
+</g>
+<g>
+<rect x="28" y="342" width="904" height="166" rx="21" fill="#101E2D" stroke="#B79AFF" stroke-opacity=".29"/>
+<rect x="29" y="362" width="4" height="125" rx="2" fill="#B79AFF"/>
+<path d="M326 362V487" stroke="#345065" stroke-opacity=".8"/>
+<rect x="48" y="365" width="66" height="23" rx="7" fill="#B79AFF" fill-opacity=".15"/>
+<text x="62" y="383" fill="#B79AFF" font-family="Consolas,monospace" font-size="15" letter-spacing="1.2" font-weight="700">02 / 03</text>
+<text x="48" y="421" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="800">FRONTEND &amp; CREATIVE</text>
+<text x="48" y="445" fill="#92ACBF" font-family="Consolas,monospace" font-size="11.5" letter-spacing=".5">EXPERIENCE / MOTION / DESIGN</text>
+<g transform="translate(209 400)" opacity=".3"><g fill="none" stroke="#B79AFF" stroke-width="3" stroke-linejoin="round"><polygon points="48,4 78,21 48,38 18,21"/><path d="M18 21v34l30 17 30-17V21 M48 38v34"/></g></g>
+<g><rect x="347" y="367" width="173" height="54" rx="12" fill="#348FDE" fill-opacity=".12" stroke="#348FDE" stroke-opacity=".42"/><rect x="357" y="380" width="4" height="28" rx="2" fill="#348FDE"/><text x="370" y="401" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="22">React</text></g><g><rect x="534" y="367" width="173" height="54" rx="12" fill="#5089AF" fill-opacity=".12" stroke="#5089AF" stroke-opacity=".42"/><rect x="544" y="380" width="4" height="28" rx="2" fill="#5089AF"/><text x="557" y="401" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="22">Next.js</text></g><g><rect x="721" y="367" width="173" height="54" rx="12" fill="#A88AF4" fill-opacity=".12" stroke="#A88AF4" stroke-opacity=".42"/><rect x="731" y="380" width="4" height="28" rx="2" fill="#A88AF4"/><text x="744" y="401" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="22">Three.js</text></g><g><rect x="347" y="431" width="173" height="54" rx="12" fill="#27BBC9" fill-opacity=".12" stroke="#27BBC9" stroke-opacity=".42"/><rect x="357" y="444" width="4" height="28" rx="2" fill="#27BBC9"/><text x="370" y="465" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="22">Tailwind</text></g><g><rect x="534" y="431" width="173" height="54" rx="12" fill="#48BF91" fill-opacity=".12" stroke="#48BF91" stroke-opacity=".42"/><rect x="544" y="444" width="4" height="28" rx="2" fill="#48BF91"/><text x="557" y="465" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="22">GSAP</text></g>
+<path d="M835 495H910" stroke="#B79AFF" stroke-opacity=".55" stroke-width="2"/>
+</g>
+<g>
+<rect x="28" y="520" width="904" height="166" rx="21" fill="#101E2D" stroke="#70E4BD" stroke-opacity=".29"/>
+<rect x="29" y="540" width="4" height="125" rx="2" fill="#70E4BD"/>
+<path d="M326 540V665" stroke="#345065" stroke-opacity=".8"/>
+<rect x="48" y="543" width="66" height="23" rx="7" fill="#70E4BD" fill-opacity=".15"/>
+<text x="62" y="561" fill="#70E4BD" font-family="Consolas,monospace" font-size="15" letter-spacing="1.2" font-weight="700">03 / 03</text>
+<text x="48" y="599" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="800">BACKEND &amp; WORKFLOW</text>
+<text x="48" y="623" fill="#92ACBF" font-family="Consolas,monospace" font-size="11.5" letter-spacing=".5">DATA / SYSTEMS / DELIVERY</text>
+<g transform="translate(209 578)" opacity=".3"><g fill="none" stroke="#70E4BD" stroke-width="3"><circle cx="18" cy="28" r="9"/><circle cx="79" cy="10" r="9"/><circle cx="79" cy="57" r="9"/><circle cx="46" cy="38" r="9"/><path d="M27 30L37 35 M53 31L70 16 M53 42L70 53"/></g></g>
+<g><rect x="347" y="545" width="173" height="54" rx="12" fill="#3BB98D" fill-opacity=".12" stroke="#3BB98D" stroke-opacity=".42"/><rect x="357" y="558" width="4" height="28" rx="2" fill="#3BB98D"/><text x="370" y="579" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="22">Node.js</text></g><g><rect x="534" y="545" width="173" height="54" rx="12" fill="#29AD99" fill-opacity=".12" stroke="#29AD99" stroke-opacity=".42"/><rect x="544" y="558" width="4" height="28" rx="2" fill="#29AD99"/><text x="557" y="579" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="22">Supabase</text></g><g><rect x="721" y="545" width="173" height="54" rx="12" fill="#43A9A5" fill-opacity=".12" stroke="#43A9A5" stroke-opacity=".42"/><rect x="731" y="558" width="4" height="28" rx="2" fill="#43A9A5"/><text x="744" y="579" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="22">MongoDB</text></g><g><rect x="347" y="609" width="173" height="54" rx="12" fill="#4E9BD3" fill-opacity=".12" stroke="#4E9BD3" stroke-opacity=".42"/><rect x="357" y="622" width="4" height="28" rx="2" fill="#4E9BD3"/><text x="370" y="643" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="22">Git</text></g><g><rect x="534" y="609" width="173" height="54" rx="12" fill="#9483D4" fill-opacity=".12" stroke="#9483D4" stroke-opacity=".42"/><rect x="544" y="622" width="4" height="28" rx="2" fill="#9483D4"/><text x="557" y="643" fill="#ECF8FF" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="22">Linux</text></g>
+<path d="M835 673H910" stroke="#70E4BD" stroke-opacity=".55" stroke-width="2"/>
+</g>
+<path d="M45 724H915" stroke="url(#spectrum)" stroke-opacity=".55" stroke-width="2"/>
+<text x="48" y="742" font-family="Consolas,monospace" font-size="11" letter-spacing="2.2" fill="#89A8BE">DESIGN  /  ENGINEER  /  SHIP  /  ITERATE</text>
+<text x="913" y="742" text-anchor="end" font-family="Consolas,monospace" font-size="11" fill="#89A8BE">AJ — DEVELOPMENT CONSOLE</text>
+</svg>

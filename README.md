@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://www.gitskins.com/api/section/hero?username=antoniusjairus4&theme=satan&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F215211284%3Fu%3De4e93ddf4924aa252916205a2f250bbb5377088c%26v%3D4" width="100%" alt="Antonius Jairus GitHub hero" />
+<img src="./assets/hero.svg" width="100%" alt="Antonius Jairus — an original blue, cyan and mint development console" />
 
 <br/>
 
@@ -11,8 +11,8 @@
 I turn ideas into functional products, immersive interfaces,  
 and digital experiences that feel memorable.
 
-[![Portfolio](https://img.shields.io/badge/EXPLORE_MY_WORK-FF5722?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://antoniusjairus.in)
-[![LinkedIn](https://img.shields.io/badge/CONNECT-161B22?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antoniusjairus4/)
+[![Portfolio](https://img.shields.io/badge/EXPLORE_MY_WORK-247FBB?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://antoniusjairus.in)
+[![LinkedIn](https://img.shields.io/badge/CONNECT-12525F?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antoniusjairus4/)
 
 </div>
 
@@ -34,6 +34,13 @@ I like building things that people can actually use.
 ---
 
 ### `02 / SELECTED WORK`
+
+<div align="center">
+
+<img src="./assets/project-loop.gif" width="100%" alt="A subtle animated loop of designing, developing, deploying and evolving products" />
+
+</div>
+
 
 <table>
 <tr>
@@ -110,31 +117,31 @@ Alzheimer's disease prediction.
 
 **LANGUAGES**
 
-![C++](https://img.shields.io/badge/C++-161B22?style=flat-square&logo=cplusplus&logoColor=FF5722)
-![Python](https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=FF5722)
-![JavaScript](https://img.shields.io/badge/JavaScript-161B22?style=flat-square&logo=javascript&logoColor=FF5722)
-![TypeScript](https://img.shields.io/badge/TypeScript-161B22?style=flat-square&logo=typescript&logoColor=FF5722)
-![Java](https://img.shields.io/badge/Java-161B22?style=flat-square&logo=openjdk&logoColor=FF5722)
+![C++](https://img.shields.io/badge/C++-247FBB?style=flat-square&logo=cplusplus&logoColor=FF5722)
+![Python](https://img.shields.io/badge/Python-1AB9C6?style=flat-square&logo=python&logoColor=FF5722)
+![JavaScript](https://img.shields.io/badge/JavaScript-6DE8A5?style=flat-square&logo=javascript&logoColor=FF5722)
+![TypeScript](https://img.shields.io/badge/TypeScript-6559A8?style=flat-square&logo=typescript&logoColor=FF5722)
+![Java](https://img.shields.io/badge/Java-19517E?style=flat-square&logo=openjdk&logoColor=FF5722)
 
 <br/>
 
 **FRONTEND & CREATIVE**
 
-![React](https://img.shields.io/badge/React-161B22?style=flat-square&logo=react&logoColor=FF5722)
-![Next.js](https://img.shields.io/badge/Next.js-161B22?style=flat-square&logo=nextdotjs&logoColor=FF5722)
-![Three.js](https://img.shields.io/badge/Three.js-161B22?style=flat-square&logo=threedotjs&logoColor=FF5722)
-![Tailwind](https://img.shields.io/badge/Tailwind-161B22?style=flat-square&logo=tailwindcss&logoColor=FF5722)
-![GSAP](https://img.shields.io/badge/GSAP-161B22?style=flat-square&logo=greensock&logoColor=FF5722)
+![React](https://img.shields.io/badge/React-36A76F?style=flat-square&logo=react&logoColor=FF5722)
+![Next.js](https://img.shields.io/badge/Next.js-247FBB?style=flat-square&logo=nextdotjs&logoColor=FF5722)
+![Three.js](https://img.shields.io/badge/Three.js-1AB9C6?style=flat-square&logo=threedotjs&logoColor=FF5722)
+![Tailwind](https://img.shields.io/badge/Tailwind-6DE8A5?style=flat-square&logo=tailwindcss&logoColor=FF5722)
+![GSAP](https://img.shields.io/badge/GSAP-6559A8?style=flat-square&logo=greensock&logoColor=FF5722)
 
 <br/>
 
 **BACKEND & TOOLS**
 
-![Node.js](https://img.shields.io/badge/Node.js-161B22?style=flat-square&logo=nodedotjs&logoColor=FF5722)
-![Supabase](https://img.shields.io/badge/Supabase-161B22?style=flat-square&logo=supabase&logoColor=FF5722)
-![MongoDB](https://img.shields.io/badge/MongoDB-161B22?style=flat-square&logo=mongodb&logoColor=FF5722)
-![Git](https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=FF5722)
-![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=FF5722)
+![Node.js](https://img.shields.io/badge/Node.js-19517E?style=flat-square&logo=nodedotjs&logoColor=FF5722)
+![Supabase](https://img.shields.io/badge/Supabase-36A76F?style=flat-square&logo=supabase&logoColor=FF5722)
+![MongoDB](https://img.shields.io/badge/MongoDB-247FBB?style=flat-square&logo=mongodb&logoColor=FF5722)
+![Git](https://img.shields.io/badge/Git-1AB9C6?style=flat-square&logo=git&logoColor=FF5722)
+![Linux](https://img.shields.io/badge/Linux-6DE8A5?style=flat-square&logo=linux&logoColor=FF5722)
 
 </div>
 
@@ -144,21 +151,19 @@ Alzheimer's disease prediction.
 
 **PROOF OF WORK. NOT PROMISES.**
 
-A live contribution calendar in ocean blue, turquoise, and mint. Each square reflects your daily GitHub activity; higher contribution levels appear brighter. Refreshed automatically.
+Blue marks the quieter days; cyan and mint show higher contribution intensity. The custom chart refreshes automatically and carries the **exact date and contribution count** for each square. Open the original SVG to see its built-in date labels and tooltips.
 
 <div align="center">
 
-<img src="./assets/build-log.svg" width="100%" alt="Live GitHub contribution intensity calendar, from dark blue to bright seafoam" />
-
-<br/>
+<a href="https://github.com/antoniusjairus4/antoniusjairus4/blob/main/assets/build-log.svg">
+<img src="./assets/build-log.svg" width="100%" alt="A live contribution calendar with month labels, daily counts and recent public GitHub activity" />
+</a>
 
 #### THE KOI / CODE IN MOTION
 
-A pixel-art koi shaped by the languages, activity, and streaks behind the work. Recreated daily from public GitHub contributions.
+A living pixel-art koi influenced by public contributions, languages and streaks.
 
-<img src="./koi/koi.gif" width="256" alt="Git Koi evolving from my public GitHub contributions" />
-
-<br/>
+<img src="./koi/koi.gif" width="380" alt="Animated Git Koi reflecting GitHub activity" />
 
 <sub>BUILD · COMMIT · EVOLVE</sub>
 
@@ -166,17 +171,49 @@ A pixel-art koi shaped by the languages, activity, and streaks behind the work. 
 
 ---
 
-### `05 / OPEN TO COLLABORATION`
+### `05 / FEATURED REPOSITORIES`
+
+Original repository highlights, linked directly from this custom README.
+
+<table><tr>
+<td width="50%" valign="top">
+
+#### [portfolio](https://github.com/antoniusjairus4/portfolio)
+
+Immersive 3D web development, creative interactions and experiments.
+
+![HTML](https://img.shields.io/badge/HTML-247FBB?style=flat-square&logo=html5&logoColor=white)
+
+[**See the repository ↗**](https://github.com/antoniusjairus4/portfolio)
+
+</td><td width="50%" valign="top">
+
+#### [Data Structures & Algorithms](https://github.com/antoniusjairus4/Data-Structures-Algorithm-and-Design-Techniques)
+
+C++ implementations and systematic problem-solving practice.
+
+![C++](https://img.shields.io/badge/C++-6559A8?style=flat-square&logo=cplusplus&logoColor=white)
+
+[**See the repository ↗**](https://github.com/antoniusjairus4/Data-Structures-Algorithm-and-Design-Techniques)
+
+</td></tr></table>
+
+---
+
+
+### `06 / OPEN TO COLLABORATION`
 
 I enjoy building ambitious ideas, experimental interfaces,  
 and products with real-world impact.
 
-**Have something interesting in mind? Let's build it.**
+**Have a challenging idea? Let's create something worth using.**
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/LET'S_TALK-FF5722?style=for-the-badge&logo=gmail&logoColor=white)](mailto:antoniusjairusofficial@gmail.com)
-[![GitHub](https://img.shields.io/badge/GITHUB-161B22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/antoniusjairus4)
+<a href="mailto:antoniusjairusofficial@gmail.com"><img src="./assets/contact-loop.gif" width="100%" alt="Animated invitation to collaborate, linked to email" /></a>
+
+[![Email](https://img.shields.io/badge/LET'S_TALK-1AB9C6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:antoniusjairusofficial@gmail.com)
+[![GitHub](https://img.shields.io/badge/GITHUB-247FBB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/antoniusjairus4)
 
 <br/>
 

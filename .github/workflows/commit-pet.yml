@@ -54,6 +54,31 @@ jobs:
           grep -q 'Byte' assets/commit-pet.svg
           grep -q '<animate' assets/commit-pet.svg
 
+      - name: Match the profile's blue-cyan-mint palette
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          path = Path("assets/commit-pet.svg")
+          svg = path.read_text(encoding="utf-8")
+          replacements = {
+              "#1b2030": "#101e2d",
+              "#11151f": "#0b111a",
+              "#2c3346": "#234457",
+              "#0d1018": "#102432",
+              "#ffd166": "#75e8ba",
+              "#3a3f55": "#1b3748",
+              "#f4f6ff": "#e7f6ff",
+              "#9aa7c7": "#8eafc0",
+              "#cdd6ef": "#cbeaf3",
+              "#7e8aa8": "#8eafc0",
+              "#6b76a0": "#78b5c6",
+          }
+          for old, new in replacements.items():
+              svg = svg.replace(old, new)
+          path.write_text(svg, encoding="utf-8")
+          PY
+
       - name: Commit changed pet graphic only
         shell: bash
         run: |

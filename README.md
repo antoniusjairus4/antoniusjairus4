@@ -164,6 +164,16 @@ Blue marks the quieter days; cyan and mint show higher contribution intensity. T
 <img src="./assets/build-log.svg" width="100%" alt="A live contribution calendar with month labels, daily counts and recent public GitHub activity" />
 </a>
 
+**THE CITY OF COMMITS / LIVE SKYLINE**
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/antoniusjairus4/antoniusjairus4/output/skyline.svg" width="100%" alt="Animated neon GitHub contribution skyline: blue-to-cyan-to-mint buildings, softly flickering windows and twinkling stars" />
+
+<sub>Every week becomes a building. Every contribution lights a window. Automatically refreshed daily.</sub>
+
+</div>
+
 #### THE KOI / CODE IN MOTION
 
 A living pixel-art koi influenced by public contributions, languages and streaks.

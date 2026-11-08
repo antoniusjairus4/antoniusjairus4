@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img src="https://www.gitskins.com/api/section/hero?username=antoniusjairus4&theme=satan&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F215211284%3Fu%3De4e93ddf4924aa252916205a2f250bbb5377088c%26v%3D4" width="100%" alt="Antonius Jairus GitHub hero" />
@@ -9,8 +8,8 @@
 
 **Full-Stack Development · Creative Engineering · AI/ML**
 
-I turn ideas into functional products and ordinary
-websites into memorable digital experiences.
+I turn ideas into functional products, immersive interfaces,  
+and digital experiences that feel memorable.
 
 [![Portfolio](https://img.shields.io/badge/EXPLORE_MY_WORK-FF5722?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://antoniusjairus.in)
 [![LinkedIn](https://img.shields.io/badge/CONNECT-161B22?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antoniusjairus4/)
@@ -21,18 +20,15 @@ websites into memorable digital experiences.
 
 ### `01 / THE BUILDER`
 
-I'm **Antonius Jairus R**, a Computer Science
-engineering student specializing in Cybersecurity
-at Sri Krishna College of Engineering and Technology.
+I'm **Antonius Jairus R**, a Computer Science engineering student  
+specializing in Cybersecurity at Sri Krishna College of Engineering and Technology.
 
-I work at the intersection of **engineering, design,
-and product development**.
+I work at the intersection of **engineering, design, product thinking, and experimentation**.
 
-From immersive 3D websites to real-world management
-systems, I enjoy building things that people can
-actually use.
+From immersive 3D portfolio experiences to real-world management systems,  
+I like building things that people can actually use.
 
-> Less talking about what I can build.
+> Less talking about what I can build.  
 > More showing what I've shipped.
 
 ---
@@ -47,7 +43,7 @@ actually use.
 
 **An immersive 3D experience**
 
-A creative portfolio exploring WebGL, motion,
+A creative portfolio exploring WebGL, motion,  
 spatial interactions, and experimental web design.
 
 `Creative Development` `3D` `WebGL`
@@ -61,8 +57,8 @@ spatial interactions, and experimental web design.
 
 **Research meets digital storytelling**
 
-A digital archive for Dr. J. S. Yogesh Kumar,
-bringing scientific research, underwater imagery,
+A digital archive for Dr. J. S. Yogesh Kumar,  
+bringing scientific research, underwater imagery,  
 and career milestones into an interactive experience.
 
 `Web Development` `UI/UX` `SEO`
@@ -79,8 +75,8 @@ and career milestones into an interactive experience.
 
 **Real-world financial operations**
 
-An administration platform designed to simplify
-chit group management, installments, auctions,
+An administration platform designed to simplify  
+chit group management, installments, auctions,  
 and member records.
 
 `React` `PWA` `Management System`
@@ -94,8 +90,8 @@ and member records.
 
 **AI-assisted Alzheimer's research**
 
-Exploring machine learning and multimodal
-medical data to support research into early
+Exploring machine learning and multimodal  
+medical data to support research into early  
 Alzheimer's disease prediction.
 
 `Python` `Machine Learning` `Research`
@@ -120,6 +116,8 @@ Alzheimer's disease prediction.
 ![TypeScript](https://img.shields.io/badge/TypeScript-161B22?style=flat-square&logo=typescript&logoColor=FF5722)
 ![Java](https://img.shields.io/badge/Java-161B22?style=flat-square&logo=openjdk&logoColor=FF5722)
 
+<br/>
+
 **FRONTEND & CREATIVE**
 
 ![React](https://img.shields.io/badge/React-161B22?style=flat-square&logo=react&logoColor=FF5722)
@@ -127,6 +125,8 @@ Alzheimer's disease prediction.
 ![Three.js](https://img.shields.io/badge/Three.js-161B22?style=flat-square&logo=threedotjs&logoColor=FF5722)
 ![Tailwind](https://img.shields.io/badge/Tailwind-161B22?style=flat-square&logo=tailwindcss&logoColor=FF5722)
 ![GSAP](https://img.shields.io/badge/GSAP-161B22?style=flat-square&logo=greensock&logoColor=FF5722)
+
+<br/>
 
 **BACKEND & TOOLS**
 
@@ -140,11 +140,20 @@ Alzheimer's disease prediction.
 
 ---
 
-### `04 / GITHUB SIGNAL`
+### `04 / THE BUILD LOG`
+
+**PROOF OF WORK. NOT PROMISES.**
+
+A live record of commits, experiments, and shipped progress.  
+This section updates automatically and reflects my GitHub activity over time.
 
 <div align="center">
 
-<img src="https://www.gitskins.com/api/section/stats?username=antoniusjairus4&theme=satan" width="100%" alt="Live GitHub statistics" />
+<img
+  src="./assets/build-log.svg"
+  width="100%"
+  alt="Antonius Jairus GitHub contribution calendar and recent activity"
+/>
 
 </div>
 
@@ -152,8 +161,8 @@ Alzheimer's disease prediction.
 
 ### `05 / OPEN TO COLLABORATION`
 
-I enjoy working on ambitious ideas, challenging
-interfaces, and products with real-world impact.
+I enjoy building ambitious ideas, experimental interfaces,  
+and products with real-world impact.
 
 **Have something interesting in mind? Let's build it.**
 

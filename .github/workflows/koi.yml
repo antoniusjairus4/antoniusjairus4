@@ -1,0 +1,45 @@
+name: Update Profile Koi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 0 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/koi.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-koi
+  cancel-in-progress: false
+
+jobs:
+  koi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Render Git Koi from public contribution history
+        uses: yalongwastaken/git-koi@v1
+        with:
+          login: antoniusjairus4
+          body: asagi
+          output-dir: koi
+
+      - name: Commit koi if it changed
+        shell: bash
+        run: |
+          git add koi/koi.gif
+          if git diff --cached --quiet; then
+            echo "Koi unchanged, no commit needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(koi): redraw activity koi"
+          git push

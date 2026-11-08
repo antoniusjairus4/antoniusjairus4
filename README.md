@@ -42,66 +42,42 @@ I like building things that people can actually use.
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="https://antoniusjairus.in"><img src="./assets/work-portfolio.svg" width="100%" alt="Personal portfolio: immersive WebGL architecture illustration" /></a>
 
-#### 01 — PERSONAL PORTFOLIO
+**A portfolio you experience, not just scroll.**
 
-**An immersive 3D experience**
+Spatial storytelling, interactive motion and experimental 3D built for the web.
 
-A creative portfolio exploring WebGL, motion,  
-spatial interactions, and experimental web design.
-
-`Creative Development` `3D` `WebGL`
-
-[**Explore Website ↗**](https://antoniusjairus.in)
-
+[**Enter the experience ↗**](https://antoniusjairus.in)
 </td>
 <td width="50%" valign="top">
+<a href="https://yogesh-teal.vercel.app/"><img src="./assets/work-archive.svg" width="100%" alt="Digital scientific archive: glowing underwater library illustration" /></a>
 
-#### 02 — SCIENTIFIC ARCHIVE
+**Research, preserved as an experience.**
 
-**Research meets digital storytelling**
+An interactive archive highlighting the scientific work of Dr. J. S. Yogesh Kumar.
 
-A digital archive for Dr. J. S. Yogesh Kumar,  
-bringing scientific research, underwater imagery,  
-and career milestones into an interactive experience.
-
-`Web Development` `UI/UX` `SEO`
-
-[**Explore Website ↗**](https://yogesh-teal.vercel.app/)
-
+[**Explore the archive ↗**](https://yogesh-teal.vercel.app/)
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
+<img src="./assets/work-kaiforge.svg" width="100%" alt="KaiForge: table tennis performance tracking and analytics product illustration" />
 
-#### 03 — CHIT FUND SYSTEM
+**The training ground, reimagined in software.**
 
-**Real-world financial operations**
+A table-tennis product built around sessions, matches, tournaments and player analytics.
 
-An administration platform designed to simplify  
-chit group management, installments, auctions,  
-and member records.
-
-`React` `PWA` `Management System`
-
-[**Explore Application ↗**](https://venkatesan-nine.vercel.app/)
-
+<sub>INDEPENDENT PRODUCT · UNDER ITERATION</sub>
 </td>
 <td width="50%" valign="top">
+<img src="./assets/work-neuroshield.svg" width="100%" alt="NeuroShield AI: abstract brain research and machine learning visual" />
 
-#### 04 — NEUROSHIELD.AI
+**Research at the intersection of AI and neuroscience.**
 
-**AI-assisted Alzheimer's research**
+Exploring multimodal machine learning approaches to Alzheimer's disease research.
 
-Exploring machine learning and multimodal  
-medical data to support research into early  
-Alzheimer's disease prediction.
-
-`Python` `Machine Learning` `Research`
-
-**Research Project**
-
+<sub>AI RESEARCH · TEAM PROJECT</sub>
 </td>
 </tr>
 </table>

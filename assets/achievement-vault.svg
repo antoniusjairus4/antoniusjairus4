@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="204" viewBox="0 0 960 204" role="img" aria-label="Achievement vault: two earned GitHub achievements, YOLO and Quickdraw, plus GitHub Pro profile highlight">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101D2C"/><stop offset=".56" stop-color="#0C1220"/><stop offset="1" stop-color="#19162B"/></linearGradient>
+  <linearGradient id="rail" x1="0" y1="0" x2="1"><stop stop-color="#46B3F6"/><stop offset=".5" stop-color="#88D9CD"/><stop offset="1" stop-color="#B59FFF"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#5D60BB" stop-opacity=".26"/><stop offset="1" stop-color="#5D60BB" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="960" height="204" rx="21" fill="url(#bg)"/>
+<rect x="1" y="1" width="958" height="202" rx="20" stroke="#2B4459" fill="none"/>
+<ellipse cx="768" cy="106" rx="240" ry="170" fill="url(#glow)"/>
+<rect x="28" y="0" width="904" height="3" rx="1" fill="url(#rail)"/>
+<path d="M35 32h169 M35 172h890" stroke="#3F6680" opacity=".55"/>
+<text x="38" y="52" font-family="Consolas,monospace" font-weight="700" font-size="14" fill="#79DAD5" letter-spacing="3">ACHIEVEMENT VAULT  /  EARNED ON GITHUB</text>
+<text x="34" y="111" font-family="Segoe UI,Arial,sans-serif" font-weight="800" font-size="52" fill="#EDF7FF" letter-spacing="-1.2">BADGES &amp; <tspan fill="#A4A5FF">MILESTONES</tspan></text>
+<text x="38" y="143" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#93ACBF">Recognition from contributions, collaboration and building.</text>
+<path d="M715 33l17 13 20-9 8 23 24 5-7 24 17 16-18 17 7 24-24 5-8 24-20-9-17 13-15-20-23 2-2-26-22-11 14-22-14-22 22-11 2-26 23 2z" fill="none" stroke="#8D91F1" stroke-width="2.3" opacity=".5" transform="translate(85 0) scale(.85)"/>
+<circle cx="705" cy="93" r="42" fill="none" stroke="#63C5CF" opacity=".55" stroke-width="2"/>
+<path d="M690 92l10 11 23-25" fill="none" stroke="#7CE3C2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="934" y="188" font-family="Consolas,monospace" font-size="11" fill="#8EA7BC" text-anchor="end" letter-spacing="2">RECOGNITION  /  GITHUB PROFILE</text>
+</svg>

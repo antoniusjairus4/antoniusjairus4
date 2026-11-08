@@ -14,12 +14,16 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-build-log
+  cancel-in-progress: false
+
 jobs:
   build-log:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate GitHub activity
+      - name: Generate live contribution calendar
         uses: lowlighter/metrics@latest
         with:
           user: antoniusjairus4
@@ -30,17 +34,43 @@ jobs:
           base: ""
           config_display: large
           config_timezone: Asia/Kolkata
+          config_animations: no
 
           plugin_calendar: yes
           plugin_calendar_limit: 1
 
-          plugin_activity: yes
-          plugin_activity_limit: 6
-          plugin_activity_days: 30
-          plugin_activity_filter: push, pr, issue, release, ref/create
-          plugin_activity_visibility: public
-          plugin_activity_timestamps: yes
+          # The upstream recent-activity plugin currently crashes on some
+          # GitHub API event payloads. Keep the live calendar error-free.
+          plugin_activity: no
+
+          # Midnight ink + ocean-blue -> turquoise -> mint intensity.
+          # Day colors are assigned from real GitHub contribution counts.
+          extras_css: |
+            svg {
+              background: #0d1117 !important;
+              color: #c8d7df !important;
+            }
+            .items-wrapper {
+              background: #0d1117 !important;
+              color: #c8d7df !important;
+            }
+            h2 { color: #58d9d2 !important; font-weight: 700 !important; }
+            h2 svg, .field svg { fill: #58d9d2 !important; }
+            .calendar .day { outline: none !important; }
+            svg.calendar text { fill: #91afbf !important; }
+            :root {
+              --color-calendar-graph-day-bg: #172531;
+              --color-calendar-graph-day-L1-bg: #174b77;
+              --color-calendar-graph-day-L2-bg: #1784ad;
+              --color-calendar-graph-day-L3-bg: #1eb6bd;
+              --color-calendar-graph-day-L4-bg: #75e8ba;
+            }
+            .calendar rect.day[fill="#ebedf0"] { fill: #172531 !important; }
+            .calendar rect.day[fill="#9be9a8"] { fill: #174b77 !important; }
+            .calendar rect.day[fill="#40c463"] { fill: #1784ad !important; }
+            .calendar rect.day[fill="#30a14e"] { fill: #1eb6bd !important; }
+            .calendar rect.day[fill="#216e39"] { fill: #75e8ba !important; }
 
           output_action: commit
           committer_branch: main
-          committer_message: "chore(metrics): update build log"
+          committer_message: "chore(metrics): update ocean build log"

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-label="NEUROSHIELD.AI project visual">
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#112436"/><stop offset=".62" stop-color="#0A1623"/><stop offset="1" stop-color="#090F1D"/></linearGradient>
+<linearGradient id="stripe" x1="0" x2="1"><stop stop-color="#BD9BFA"/><stop offset="1" stop-color="#F384C8"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#BD9BFA" stop-opacity=".24"/><stop offset="1" stop-color="#BD9BFA" stop-opacity="0"/></radialGradient>
+<pattern id="mesh" patternUnits="userSpaceOnUse" width="27" height="27"><path d="M27 0H0V27" stroke="#5D8198" stroke-opacity=".12" fill="none"/></pattern>
+</defs>
+<rect x="1" y="1" width="958" height="428" rx="23" fill="url(#bg)" stroke="#BD9BFA" stroke-opacity=".35"/>
+<rect x="4" y="4" width="952" height="422" rx="20" fill="url(#mesh)"/>
+<ellipse cx="779" cy="200" rx="271" ry="226" fill="url(#aura)"/>
+<rect x="31" y="31" width="6" height="40" rx="3" fill="url(#stripe)"/>
+<text x="51" y="56" fill="#BD9BFA" font-size="18" font-family="Consolas,monospace" letter-spacing="2" font-weight="700">04  /  APPLIED MACHINE LEARNING</text>
+<text x="50" y="149" fill="#EDF8FF" font-family="Segoe UI,Arial,sans-serif" font-size="55" font-weight="800" letter-spacing="-2">NEUROSHIELD.AI</text>
+<rect x="51" y="169" width="123" height="4" rx="2" fill="url(#stripe)"/>
+<text x="52" y="220" fill="#AFC5D6" font-size="18" font-family="Consolas,monospace" letter-spacing="1.1">MULTIMODAL ALZHEIMER'S RESEARCH</text>
+<text x="52" y="284" fill="#F384C8" font-size="16" font-family="Consolas,monospace" letter-spacing="2">RESEARCH</text>
+<rect x="52" y="335" width="103" height="33" rx="8" fill="#BD9BFA" fill-opacity=".095" stroke="#BD9BFA" stroke-opacity=".36"/><text x="64" y="357" fill="#DAEAF3" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="650">AI / ML</text><rect x="167" y="335" width="114" height="33" rx="8" fill="#BD9BFA" fill-opacity=".095" stroke="#BD9BFA" stroke-opacity=".36"/><text x="179" y="357" fill="#DAEAF3" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="650">PYTHON</text><rect x="292" y="335" width="155" height="33" rx="8" fill="#BD9BFA" fill-opacity=".095" stroke="#BD9BFA" stroke-opacity=".36"/><text x="304" y="357" fill="#DAEAF3" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="650">RESEARCH</text>
+<g transform="translate(605 13)">
+ <circle cx="186" cy="187" r="178" fill="#BD9BFA" opacity=".07"/>
+ <circle cx="186" cy="187" r="141" fill="none" stroke="#BD9BFA" opacity=".18" stroke-width="1"/>
+ <path d="M174 98 C133 43 73 92 92 139 C39 153 68 219 97 223 C87 267 132 291 173 258 Q198 239 183 211 Q217 181 180 151 Q199 119 174 98Z" fill="#331A4D" stroke="#BD9BFA" stroke-width="3"/>
+ <path d="M191 98 C232 43 291 92 272 139 C325 153 296 219 267 223 C277 267 233 291 192 258 Q167 239 182 211 Q147 181 184 151 Q165 119 191 98Z" fill="#2B1E55" stroke="#F384C8" stroke-width="3"/>
+ <path d="M179 86V260 M111 128Q154 127 170 158 M96 198Q145 184 169 211 M253 127Q213 130 196 155 M267 205Q223 196 199 227" fill="none" stroke="#BD9BFA" stroke-width="3" opacity=".7"/>
+ <g fill="#F384C8"><circle cx="110" cy="128" r="6"/><circle cx="97" cy="197" r="5"/><circle cx="254" cy="127" r="6"/><circle cx="268" cy="205" r="5"/><circle cx="179" cy="86" r="5"/></g>
+ <path d="M37 308 H88 L102 286 L123 318 L142 291 L157 309 L216 309 L231 293 L251 319 L270 288 L289 307 H338" stroke="#F384C8" stroke-width="3" fill="none"/>
+ <text x="187" y="365" text-anchor="middle" fill="#BD9BFA" font-family="monospace" font-size="14" letter-spacing="2">MULTIMODAL INTELLIGENCE</text>
+ </g>
+<path d="M28 402 H932" stroke="#BD9BFA" stroke-opacity=".2"/>
+<text x="53" y="413" fill="#83A4B8" font-family="Consolas,monospace" font-size="11" letter-spacing="2">ANTONIUS JAIRUS  /  SELECTED WORK</text>
+<circle cx="919" cy="407" r="5" fill="#F384C8"/>
+</svg>

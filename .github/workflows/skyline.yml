@@ -1,0 +1,106 @@
+name: Update Neon Skyline
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/skyline.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-neon-skyline
+  cancel-in-progress: false
+
+jobs:
+  skyline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v7
+        with:
+          go-version: stable
+
+      - name: Generate animated contribution skyline
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          go run github.com/pinkpixel-dev/skyline@v1.0.0 \
+            -theme ice \
+            -height 14 \
+            -weeks 53 \
+            -svg "$RUNNER_TEMP/skyline.svg" \
+            "antoniusjairus4"
+
+      - name: Apply custom ocean-blue to mint palette
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path(__import__("os").environ["RUNNER_TEMP"]) / "skyline.svg"
+          svg = path.read_text(encoding="utf-8")
+
+          # Exact colors from skyline's upstream 'ice' palette.
+          colors = {
+              "#0c0f14": "#0b111a",  # night sky
+              "#34404f": "#315065",  # dim stars
+              "#cfe6ff": "#b7f8ee",  # bright stars
+              "#9ccfff": "#28c5d5",  # neon cyan rooftops
+              "#f2fbff": "#75e8ba",  # brightest mint windows
+              "#3d8bff": "#247fbb",  # blue street / medium windows
+              "#6b7d93": "#94b3c5",  # muted month labels
+              "#e9f3fc": "#e7f6ff",  # text
+              "#131922": "#10202d",  # building background A
+              "#18202b": "#142838",  # building background B
+              "#212d3c": "#1e3545",  # unlit windows
+              "#1f4e99": "#19517e",  # low activity
+              "#7fe3ff": "#1ab9c6",  # high activity
+          }
+          missing = [k for k in ("#0c0f14", "#3d8bff", "#f2fbff", "#7fe3ff") if k not in svg]
+          if missing:
+              raise SystemExit("Upstream palette changed; refusing an unverified recolor: " + repr(missing))
+          for old, new in colors.items():
+              svg = svg.replace(old, new)
+          if 'animation:flick' not in svg or 'animation:twinkle' not in svg:
+              raise SystemExit("Skyline missing its expected animation definitions")
+          path.write_text(svg, encoding="utf-8")
+          print("Skyline recolored; contribution animation retained.")
+          PY
+
+      - name: Publish skyline to output branch
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git ls-remote --exit-code --heads origin output >/dev/null; then
+            git fetch origin output
+            git switch -C output FETCH_HEAD
+          else
+            git switch --orphan output
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+
+          cp "$RUNNER_TEMP/skyline.svg" skyline.svg
+          git add skyline.svg
+
+          if git diff --cached --quiet; then
+            echo "Skyline hasn't changed; no new commit."
+            exit 0
+          fi
+
+          git commit -m "chore(skyline): refresh neon contribution city"
+          git push origin HEAD:output

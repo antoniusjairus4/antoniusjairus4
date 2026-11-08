@@ -1,454 +1,432 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="216" class="large no-animations">
-    <defs>
-        <style/>
-    </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.calendar{margin-left:13px;margin-top:4px}svg.calendar text{font-size:18px;fill:currentColor}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}.no-animations *{transition-delay:0s!important;transition-duration:0s!important;animation-delay:-.0001s!important;animation-duration:0s!important;animation-play-state:paused!important;caret-color:transparent!important}</style>
-    <style>svg {
- background: #0d1117 !important;
- color: #c8d7df !important;
-}
-.items-wrapper {
- background: #0d1117 !important;
- color: #c8d7df !important;
-}
-h2 { color: #58d9d2 !important; font-weight: 700 !important; }
-h2 svg, .field svg { fill: #58d9d2 !important; }
-.calendar .day { outline: none !important; }
-svg.calendar text { fill: #91afbf !important; }
-:root {
- --color-calendar-graph-day-bg: #172531;
- --color-calendar-graph-day-L1-bg: #174b77;
- --color-calendar-graph-day-L2-bg: #1784ad;
- --color-calendar-graph-day-L3-bg: #1eb6bd;
- --color-calendar-graph-day-L4-bg: #75e8ba;
-}
-.calendar rect.day[fill="#ebedf0"] { fill: #172531 !important; }
-.calendar rect.day[fill="#9be9a8"] { fill: #174b77 !important; }
-.calendar rect.day[fill="#40c463"] { fill: #1784ad !important; }
-.calendar rect.day[fill="#30a14e"] { fill: #1eb6bd !important; }
-.calendar rect.day[fill="#216e39"] { fill: #75e8ba !important; }</style>
-    <foreignObject x="0" y="0" width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
-            <section>
-                <h2 class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                        <path fill-rule="evenodd" d="M4.75 0a.75.75 0 01.75.75V2h5V.75a.75.75 0 011.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 014.75 0zm0 3.5h8.5a.25.25 0 01.25.25V6h-11V3.75a.25.25 0 01.25-.25h2zm-2.25 4v6.75c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V7.5h-11z"/>
-                    </svg>
-                    Contributions calendar
-                </h2>
-                <div class="row">
-                    <section>
-                        <svg class="calendar" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0,0 795,130">
-                            <g transform="translate(0, 14)">
-                                <text x="0" y="0">2026</text>
-                                <g transform="translate(0, 0)">
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(15, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(30, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(45, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(60, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(75, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(90, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(105, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(120, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(135, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(150, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(165, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(180, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(195, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(210, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(225, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(240, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(255, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(270, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(285, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(300, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(315, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(330, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(345, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(360, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(375, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(390, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(405, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(420, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(435, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(450, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(465, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(480, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(495, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(510, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(525, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(540, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(555, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(570, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(585, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(600, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(615, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(630, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(645, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                </g>
-                                <g transform="translate(660, 0)">
-                                    <rect class="day" x="0" y="4" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="19" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="49" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="64" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="0" y="94" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                </g>
-                            </g>
-                        </svg>
-                    </section>
-                </div>
-            </section>
-        </div>
-        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
-    </foreignObject>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 800" width="960" height="800" role="img">
+<defs>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#348de7"/><stop offset=".52" stop-color="#28c5d5"/><stop offset="1" stop-color="#6de8a5"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#154d6a" stop-opacity=".7"/><stop offset="1" stop-color="#0b111a" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="960" height="800" rx="22" fill="#0b111a"/>
+<rect x="1" y="1" width="958" height="798" rx="21" fill="none" stroke="#234457"/>
+<rect x="26" y="0" width="908" height="3" rx="1" fill="url(#edge)"/>
+<text x="49" y="70" text-anchor="start" fill="#28c5d5" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="2.6">04 / THE BUILD LOG</text>
+<text x="49" y="116" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="750" letter-spacing="0">Every commit leaves a trace.</text>
+<text x="50" y="149" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="500" letter-spacing="0">Live contribution intensity  /  updated from GitHub</text>
+<rect x="48" y="172" width="864" height="96" rx="14" fill="#101e2e" stroke="#1d384b"/>
+<text x="68" y="204" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1">CONTRIBUTIONS / LAST 365 DAYS</text>
+<text x="67" y="246" text-anchor="start" fill="#6de8a5" font-family="Segoe UI,Arial,sans-serif" font-size="36" font-weight="750" letter-spacing="0">1,589</text>
+<text x="333" y="204" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1">ACTIVE DAYS</text>
+<text x="333" y="244" text-anchor="start" fill="#28c5d5" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="700" letter-spacing="0">177</text>
+<text x="555" y="204" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1">BUSIEST DAY</text>
+<text x="555" y="244" text-anchor="start" fill="#348de7" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" letter-spacing="0">57 contributions</text>
+<text x="50" y="316" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="1">ACTIVITY MAP</text>
+<text x="910" y="316" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">MORE ACTIVITY → BRIGHTER</text>
+<text x="23" y="371.0" text-anchor="middle" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="500" letter-spacing="0">Mon</text>
+<text x="23" y="403.5" text-anchor="middle" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="500" letter-spacing="0">Wed</text>
+<text x="23" y="436.0" text-anchor="middle" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="500" letter-spacing="0">Fri</text>
+<rect x="51.0" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 09 Nov 2025: 0 contributions</title></rect>
+<rect x="51.0" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 10 Nov 2025: 0 contributions</title></rect>
+<rect x="51.0" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 11 Nov 2025: 0 contributions</title></rect>
+<rect x="51.0" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 12 Nov 2025: 0 contributions</title></rect>
+<rect x="51.0" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 13 Nov 2025: 0 contributions</title></rect>
+<rect x="51.0" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 14 Nov 2025: 0 contributions</title></rect>
+<rect x="51.0" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 15 Nov 2025: 0 contributions</title></rect>
+<rect x="67.25" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 16 Nov 2025: 0 contributions</title></rect>
+<rect x="67.25" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 17 Nov 2025: 0 contributions</title></rect>
+<rect x="67.25" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 18 Nov 2025: 0 contributions</title></rect>
+<rect x="67.25" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 19 Nov 2025: 0 contributions</title></rect>
+<rect x="67.25" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 20 Nov 2025: 0 contributions</title></rect>
+<rect x="67.25" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 21 Nov 2025: 0 contributions</title></rect>
+<rect x="67.25" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 22 Nov 2025: 0 contributions</title></rect>
+<rect x="83.5" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 23 Nov 2025: 0 contributions</title></rect>
+<rect x="83.5" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 24 Nov 2025: 0 contributions</title></rect>
+<rect x="83.5" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 25 Nov 2025: 0 contributions</title></rect>
+<rect x="83.5" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 26 Nov 2025: 0 contributions</title></rect>
+<rect x="83.5" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 27 Nov 2025: 0 contributions</title></rect>
+<rect x="83.5" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 28 Nov 2025: 0 contributions</title></rect>
+<rect x="83.5" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 29 Nov 2025: 0 contributions</title></rect>
+<rect x="99.75" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 30 Nov 2025: 0 contributions</title></rect>
+<text x="99.8" y="343" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="0">Dec</text>
+<rect x="99.75" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 01 Dec 2025: 0 contributions</title></rect>
+<rect x="99.75" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 02 Dec 2025: 0 contributions</title></rect>
+<rect x="99.75" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 03 Dec 2025: 0 contributions</title></rect>
+<rect x="99.75" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 04 Dec 2025: 0 contributions</title></rect>
+<rect x="99.75" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 05 Dec 2025: 0 contributions</title></rect>
+<rect x="99.75" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 06 Dec 2025: 0 contributions</title></rect>
+<rect x="116.0" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 07 Dec 2025: 0 contributions</title></rect>
+<rect x="116.0" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 08 Dec 2025: 0 contributions</title></rect>
+<rect x="116.0" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 09 Dec 2025: 0 contributions</title></rect>
+<rect x="116.0" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 10 Dec 2025: 0 contributions</title></rect>
+<rect x="116.0" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 11 Dec 2025: 0 contributions</title></rect>
+<rect x="116.0" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 12 Dec 2025: 0 contributions</title></rect>
+<rect x="116.0" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 13 Dec 2025: 0 contributions</title></rect>
+<rect x="132.25" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 14 Dec 2025: 0 contributions</title></rect>
+<rect x="132.25" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 15 Dec 2025: 0 contributions</title></rect>
+<rect x="132.25" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 16 Dec 2025: 0 contributions</title></rect>
+<rect x="132.25" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 17 Dec 2025: 0 contributions</title></rect>
+<rect x="132.25" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 18 Dec 2025: 0 contributions</title></rect>
+<rect x="132.25" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 19 Dec 2025: 0 contributions</title></rect>
+<rect x="132.25" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 20 Dec 2025: 0 contributions</title></rect>
+<rect x="148.5" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 21 Dec 2025: 0 contributions</title></rect>
+<rect x="148.5" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 22 Dec 2025: 0 contributions</title></rect>
+<rect x="148.5" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 23 Dec 2025: 0 contributions</title></rect>
+<rect x="148.5" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 24 Dec 2025: 0 contributions</title></rect>
+<rect x="148.5" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 25 Dec 2025: 0 contributions</title></rect>
+<rect x="148.5" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 26 Dec 2025: 0 contributions</title></rect>
+<rect x="148.5" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 27 Dec 2025: 0 contributions</title></rect>
+<rect x="164.75" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 28 Dec 2025: 0 contributions</title></rect>
+<rect x="164.75" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 29 Dec 2025: 0 contributions</title></rect>
+<rect x="164.75" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 30 Dec 2025: 0 contributions</title></rect>
+<rect x="164.75" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 31 Dec 2025: 0 contributions</title></rect>
+<text x="164.8" y="343" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="0">Jan</text>
+<rect x="164.75" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 01 Jan 2026: 0 contributions</title></rect>
+<rect x="164.75" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 02 Jan 2026: 0 contributions</title></rect>
+<rect x="164.75" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 03 Jan 2026: 0 contributions</title></rect>
+<rect x="181.0" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 04 Jan 2026: 0 contributions</title></rect>
+<rect x="181.0" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 05 Jan 2026: 0 contributions</title></rect>
+<rect x="181.0" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 06 Jan 2026: 0 contributions</title></rect>
+<rect x="181.0" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 07 Jan 2026: 0 contributions</title></rect>
+<rect x="181.0" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 08 Jan 2026: 0 contributions</title></rect>
+<rect x="181.0" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 09 Jan 2026: 0 contributions</title></rect>
+<rect x="181.0" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 10 Jan 2026: 0 contributions</title></rect>
+<rect x="197.25" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 11 Jan 2026: 0 contributions</title></rect>
+<rect x="197.25" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 12 Jan 2026: 0 contributions</title></rect>
+<rect x="197.25" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 13 Jan 2026: 0 contributions</title></rect>
+<rect x="197.25" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 14 Jan 2026: 0 contributions</title></rect>
+<rect x="197.25" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 15 Jan 2026: 0 contributions</title></rect>
+<rect x="197.25" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 16 Jan 2026: 0 contributions</title></rect>
+<rect x="197.25" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 17 Jan 2026: 0 contributions</title></rect>
+<rect x="213.5" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 18 Jan 2026: 0 contributions</title></rect>
+<rect x="213.5" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 19 Jan 2026: 0 contributions</title></rect>
+<rect x="213.5" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 20 Jan 2026: 0 contributions</title></rect>
+<rect x="213.5" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 21 Jan 2026: 0 contributions</title></rect>
+<rect x="213.5" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 22 Jan 2026: 0 contributions</title></rect>
+<rect x="213.5" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 23 Jan 2026: 0 contributions</title></rect>
+<rect x="213.5" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 24 Jan 2026: 0 contributions</title></rect>
+<rect x="229.75" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 25 Jan 2026: 0 contributions</title></rect>
+<rect x="229.75" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 26 Jan 2026: 0 contributions</title></rect>
+<rect x="229.75" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 27 Jan 2026: 0 contributions</title></rect>
+<rect x="229.75" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 28 Jan 2026: 0 contributions</title></rect>
+<rect x="229.75" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 29 Jan 2026: 0 contributions</title></rect>
+<rect x="229.75" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 30 Jan 2026: 0 contributions</title></rect>
+<rect x="229.75" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 31 Jan 2026: 0 contributions</title></rect>
+<text x="246.0" y="343" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="0">Feb</text>
+<rect x="246.0" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 01 Feb 2026: 0 contributions</title></rect>
+<rect x="246.0" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 02 Feb 2026: 0 contributions</title></rect>
+<rect x="246.0" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 03 Feb 2026: 0 contributions</title></rect>
+<rect x="246.0" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 04 Feb 2026: 0 contributions</title></rect>
+<rect x="246.0" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 05 Feb 2026: 0 contributions</title></rect>
+<rect x="246.0" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 06 Feb 2026: 0 contributions</title></rect>
+<rect x="246.0" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 07 Feb 2026: 0 contributions</title></rect>
+<rect x="262.25" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 08 Feb 2026: 0 contributions</title></rect>
+<rect x="262.25" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 09 Feb 2026: 0 contributions</title></rect>
+<rect x="262.25" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 10 Feb 2026: 0 contributions</title></rect>
+<rect x="262.25" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 11 Feb 2026: 0 contributions</title></rect>
+<rect x="262.25" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 12 Feb 2026: 0 contributions</title></rect>
+<rect x="262.25" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 13 Feb 2026: 0 contributions</title></rect>
+<rect x="262.25" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 14 Feb 2026: 0 contributions</title></rect>
+<rect x="278.5" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 15 Feb 2026: 0 contributions</title></rect>
+<rect x="278.5" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 16 Feb 2026: 0 contributions</title></rect>
+<rect x="278.5" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 17 Feb 2026: 0 contributions</title></rect>
+<rect x="278.5" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 18 Feb 2026: 0 contributions</title></rect>
+<rect x="278.5" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 19 Feb 2026: 0 contributions</title></rect>
+<rect x="278.5" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 20 Feb 2026: 0 contributions</title></rect>
+<rect x="278.5" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 21 Feb 2026: 0 contributions</title></rect>
+<rect x="294.75" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 22 Feb 2026: 0 contributions</title></rect>
+<rect x="294.75" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 23 Feb 2026: 0 contributions</title></rect>
+<rect x="294.75" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 24 Feb 2026: 0 contributions</title></rect>
+<rect x="294.75" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 25 Feb 2026: 0 contributions</title></rect>
+<rect x="294.75" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 26 Feb 2026: 0 contributions</title></rect>
+<rect x="294.75" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 27 Feb 2026: 0 contributions</title></rect>
+<rect x="294.75" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 28 Feb 2026: 0 contributions</title></rect>
+<text x="311.0" y="343" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="0">Mar</text>
+<rect x="311.0" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 01 Mar 2026: 0 contributions</title></rect>
+<rect x="311.0" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 02 Mar 2026: 0 contributions</title></rect>
+<rect x="311.0" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 03 Mar 2026: 0 contributions</title></rect>
+<rect x="311.0" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 04 Mar 2026: 0 contributions</title></rect>
+<rect x="311.0" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 05 Mar 2026: 0 contributions</title></rect>
+<rect x="311.0" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 06 Mar 2026: 0 contributions</title></rect>
+<rect x="311.0" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 07 Mar 2026: 4 contributions</title></rect>
+<rect x="327.25" y="458.5" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Sun, 08 Mar 2026: 9 contributions</title></rect>
+<rect x="327.25" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 09 Mar 2026: 2 contributions</title></rect>
+<rect x="327.25" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 10 Mar 2026: 2 contributions</title></rect>
+<rect x="327.25" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 11 Mar 2026: 2 contributions</title></rect>
+<rect x="327.25" y="409.75" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Thu, 12 Mar 2026: 14 contributions</title></rect>
+<rect x="327.25" y="426.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Fri, 13 Mar 2026: 3 contributions</title></rect>
+<rect x="327.25" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 14 Mar 2026: 2 contributions</title></rect>
+<rect x="343.5" y="458.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sun, 15 Mar 2026: 1 contribution</title></rect>
+<rect x="343.5" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 16 Mar 2026: 0 contributions</title></rect>
+<rect x="343.5" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 17 Mar 2026: 3 contributions</title></rect>
+<rect x="343.5" y="393.5" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Wed, 18 Mar 2026: 10 contributions</title></rect>
+<rect x="343.5" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 19 Mar 2026: 3 contributions</title></rect>
+<rect x="343.5" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 20 Mar 2026: 0 contributions</title></rect>
+<rect x="343.5" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 21 Mar 2026: 3 contributions</title></rect>
+<rect x="359.75" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 22 Mar 2026: 0 contributions</title></rect>
+<rect x="359.75" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 23 Mar 2026: 3 contributions</title></rect>
+<rect x="359.75" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 24 Mar 2026: 3 contributions</title></rect>
+<rect x="359.75" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 25 Mar 2026: 5 contributions</title></rect>
+<rect x="359.75" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 26 Mar 2026: 0 contributions</title></rect>
+<rect x="359.75" y="426.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Fri, 27 Mar 2026: 2 contributions</title></rect>
+<rect x="359.75" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 28 Mar 2026: 0 contributions</title></rect>
+<rect x="376.0" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 29 Mar 2026: 0 contributions</title></rect>
+<rect x="376.0" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 30 Mar 2026: 0 contributions</title></rect>
+<rect x="376.0" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 31 Mar 2026: 0 contributions</title></rect>
+<text x="376.0" y="343" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="0">Apr</text>
+<rect x="376.0" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 01 Apr 2026: 2 contributions</title></rect>
+<rect x="376.0" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 02 Apr 2026: 4 contributions</title></rect>
+<rect x="376.0" y="426.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Fri, 03 Apr 2026: 5 contributions</title></rect>
+<rect x="376.0" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 04 Apr 2026: 0 contributions</title></rect>
+<rect x="392.25" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 05 Apr 2026: 0 contributions</title></rect>
+<rect x="392.25" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 06 Apr 2026: 0 contributions</title></rect>
+<rect x="392.25" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 07 Apr 2026: 1 contribution</title></rect>
+<rect x="392.25" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 08 Apr 2026: 0 contributions</title></rect>
+<rect x="392.25" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 09 Apr 2026: 1 contribution</title></rect>
+<rect x="392.25" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 10 Apr 2026: 0 contributions</title></rect>
+<rect x="392.25" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 11 Apr 2026: 0 contributions</title></rect>
+<rect x="408.5" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 12 Apr 2026: 0 contributions</title></rect>
+<rect x="408.5" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 13 Apr 2026: 0 contributions</title></rect>
+<rect x="408.5" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 14 Apr 2026: 0 contributions</title></rect>
+<rect x="408.5" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 15 Apr 2026: 0 contributions</title></rect>
+<rect x="408.5" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 16 Apr 2026: 0 contributions</title></rect>
+<rect x="408.5" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 17 Apr 2026: 0 contributions</title></rect>
+<rect x="408.5" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 18 Apr 2026: 0 contributions</title></rect>
+<rect x="424.75" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 19 Apr 2026: 0 contributions</title></rect>
+<rect x="424.75" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 20 Apr 2026: 0 contributions</title></rect>
+<rect x="424.75" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 21 Apr 2026: 3 contributions</title></rect>
+<rect x="424.75" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 22 Apr 2026: 2 contributions</title></rect>
+<rect x="424.75" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 23 Apr 2026: 4 contributions</title></rect>
+<rect x="424.75" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 24 Apr 2026: 0 contributions</title></rect>
+<rect x="424.75" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 25 Apr 2026: 2 contributions</title></rect>
+<rect x="441.0" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 26 Apr 2026: 0 contributions</title></rect>
+<rect x="441.0" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 27 Apr 2026: 3 contributions</title></rect>
+<rect x="441.0" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 28 Apr 2026: 3 contributions</title></rect>
+<rect x="441.0" y="393.5" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Wed, 29 Apr 2026: 16 contributions</title></rect>
+<rect x="441.0" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 30 Apr 2026: 2 contributions</title></rect>
+<text x="441.0" y="343" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="0">May</text>
+<rect x="441.0" y="426.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Fri, 01 May 2026: 3 contributions</title></rect>
+<rect x="441.0" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 02 May 2026: 4 contributions</title></rect>
+<rect x="457.25" y="458.5" width="11.9" height="11.9" rx="2" fill="#1ab9c6"><title>Sun, 03 May 2026: 19 contributions</title></rect>
+<rect x="457.25" y="361.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Mon, 04 May 2026: 15 contributions</title></rect>
+<rect x="457.25" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 05 May 2026: 5 contributions</title></rect>
+<rect x="457.25" y="393.5" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Wed, 06 May 2026: 13 contributions</title></rect>
+<rect x="457.25" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 07 May 2026: 7 contributions</title></rect>
+<rect x="457.25" y="426.0" width="11.9" height="11.9" rx="2" fill="#1ab9c6"><title>Fri, 08 May 2026: 20 contributions</title></rect>
+<rect x="457.25" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 09 May 2026: 8 contributions</title></rect>
+<rect x="473.5" y="458.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sun, 10 May 2026: 4 contributions</title></rect>
+<rect x="473.5" y="361.0" width="11.9" height="11.9" rx="2" fill="#6de8a5"><title>Mon, 11 May 2026: 28 contributions</title></rect>
+<rect x="473.5" y="377.25" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Tue, 12 May 2026: 16 contributions</title></rect>
+<rect x="473.5" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 13 May 2026: 6 contributions</title></rect>
+<rect x="473.5" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 14 May 2026: 5 contributions</title></rect>
+<rect x="473.5" y="426.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Fri, 15 May 2026: 9 contributions</title></rect>
+<rect x="473.5" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 16 May 2026: 6 contributions</title></rect>
+<rect x="489.75" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 17 May 2026: 0 contributions</title></rect>
+<rect x="489.75" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 18 May 2026: 0 contributions</title></rect>
+<rect x="489.75" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 19 May 2026: 0 contributions</title></rect>
+<rect x="489.75" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 20 May 2026: 0 contributions</title></rect>
+<rect x="489.75" y="409.75" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Thu, 21 May 2026: 11 contributions</title></rect>
+<rect x="489.75" y="426.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Fri, 22 May 2026: 17 contributions</title></rect>
+<rect x="489.75" y="442.25" width="11.9" height="11.9" rx="2" fill="#6de8a5"><title>Sat, 23 May 2026: 26 contributions</title></rect>
+<rect x="506.0" y="458.5" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Sun, 24 May 2026: 14 contributions</title></rect>
+<rect x="506.0" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 25 May 2026: 0 contributions</title></rect>
+<rect x="506.0" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 26 May 2026: 0 contributions</title></rect>
+<rect x="506.0" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 27 May 2026: 0 contributions</title></rect>
+<rect x="506.0" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 28 May 2026: 0 contributions</title></rect>
+<rect x="506.0" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 29 May 2026: 0 contributions</title></rect>
+<rect x="506.0" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 30 May 2026: 0 contributions</title></rect>
+<rect x="522.25" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 31 May 2026: 0 contributions</title></rect>
+<text x="522.2" y="343" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="0">Jun</text>
+<rect x="522.25" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 01 Jun 2026: 1 contribution</title></rect>
+<rect x="522.25" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 02 Jun 2026: 0 contributions</title></rect>
+<rect x="522.25" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 03 Jun 2026: 0 contributions</title></rect>
+<rect x="522.25" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 04 Jun 2026: 3 contributions</title></rect>
+<rect x="522.25" y="426.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Fri, 05 Jun 2026: 1 contribution</title></rect>
+<rect x="522.25" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 06 Jun 2026: 0 contributions</title></rect>
+<rect x="538.5" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 07 Jun 2026: 0 contributions</title></rect>
+<rect x="538.5" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 08 Jun 2026: 6 contributions</title></rect>
+<rect x="538.5" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 09 Jun 2026: 2 contributions</title></rect>
+<rect x="538.5" y="393.5" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Wed, 10 Jun 2026: 14 contributions</title></rect>
+<rect x="538.5" y="409.75" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Thu, 11 Jun 2026: 12 contributions</title></rect>
+<rect x="538.5" y="426.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Fri, 12 Jun 2026: 4 contributions</title></rect>
+<rect x="538.5" y="442.25" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Sat, 13 Jun 2026: 13 contributions</title></rect>
+<rect x="554.75" y="458.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sun, 14 Jun 2026: 3 contributions</title></rect>
+<rect x="554.75" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 15 Jun 2026: 1 contribution</title></rect>
+<rect x="554.75" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 16 Jun 2026: 6 contributions</title></rect>
+<rect x="554.75" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 17 Jun 2026: 1 contribution</title></rect>
+<rect x="554.75" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 18 Jun 2026: 0 contributions</title></rect>
+<rect x="554.75" y="426.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Fri, 19 Jun 2026: 2 contributions</title></rect>
+<rect x="554.75" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 20 Jun 2026: 0 contributions</title></rect>
+<rect x="571.0" y="458.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sun, 21 Jun 2026: 7 contributions</title></rect>
+<rect x="571.0" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 22 Jun 2026: 7 contributions</title></rect>
+<rect x="571.0" y="377.25" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Tue, 23 Jun 2026: 14 contributions</title></rect>
+<rect x="571.0" y="393.5" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Wed, 24 Jun 2026: 10 contributions</title></rect>
+<rect x="571.0" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 25 Jun 2026: 7 contributions</title></rect>
+<rect x="571.0" y="426.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Fri, 26 Jun 2026: 7 contributions</title></rect>
+<rect x="571.0" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 27 Jun 2026: 4 contributions</title></rect>
+<rect x="587.25" y="458.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sun, 28 Jun 2026: 8 contributions</title></rect>
+<rect x="587.25" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 29 Jun 2026: 2 contributions</title></rect>
+<rect x="587.25" y="377.25" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Tue, 30 Jun 2026: 11 contributions</title></rect>
+<text x="587.2" y="343" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="0">Jul</text>
+<rect x="587.25" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 01 Jul 2026: 4 contributions</title></rect>
+<rect x="587.25" y="409.75" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Thu, 02 Jul 2026: 14 contributions</title></rect>
+<rect x="587.25" y="426.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Fri, 03 Jul 2026: 14 contributions</title></rect>
+<rect x="587.25" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 04 Jul 2026: 4 contributions</title></rect>
+<rect x="603.5" y="458.5" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Sun, 05 Jul 2026: 11 contributions</title></rect>
+<rect x="603.5" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 06 Jul 2026: 1 contribution</title></rect>
+<rect x="603.5" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 07 Jul 2026: 0 contributions</title></rect>
+<rect x="603.5" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 08 Jul 2026: 0 contributions</title></rect>
+<rect x="603.5" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 09 Jul 2026: 0 contributions</title></rect>
+<rect x="603.5" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 10 Jul 2026: 0 contributions</title></rect>
+<rect x="603.5" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 11 Jul 2026: 1 contribution</title></rect>
+<rect x="619.75" y="458.5" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Sun, 12 Jul 2026: 10 contributions</title></rect>
+<rect x="619.75" y="361.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Mon, 13 Jul 2026: 9 contributions</title></rect>
+<rect x="619.75" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 14 Jul 2026: 1 contribution</title></rect>
+<rect x="619.75" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 15 Jul 2026: 2 contributions</title></rect>
+<rect x="619.75" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 16 Jul 2026: 3 contributions</title></rect>
+<rect x="619.75" y="426.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Fri, 17 Jul 2026: 10 contributions</title></rect>
+<rect x="619.75" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 18 Jul 2026: 1 contribution</title></rect>
+<rect x="636.0" y="458.5" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Sun, 19 Jul 2026: 15 contributions</title></rect>
+<rect x="636.0" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 20 Jul 2026: 5 contributions</title></rect>
+<rect x="636.0" y="377.25" width="11.9" height="11.9" rx="2" fill="#1ab9c6"><title>Tue, 21 Jul 2026: 19 contributions</title></rect>
+<rect x="636.0" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 22 Jul 2026: 7 contributions</title></rect>
+<rect x="636.0" y="409.75" width="11.9" height="11.9" rx="2" fill="#6de8a5"><title>Thu, 23 Jul 2026: 31 contributions</title></rect>
+<rect x="636.0" y="426.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Fri, 24 Jul 2026: 10 contributions</title></rect>
+<rect x="636.0" y="442.25" width="11.9" height="11.9" rx="2" fill="#1ab9c6"><title>Sat, 25 Jul 2026: 19 contributions</title></rect>
+<rect x="652.25" y="458.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sun, 26 Jul 2026: 6 contributions</title></rect>
+<rect x="652.25" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 27 Jul 2026: 2 contributions</title></rect>
+<rect x="652.25" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 28 Jul 2026: 3 contributions</title></rect>
+<rect x="652.25" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 29 Jul 2026: 6 contributions</title></rect>
+<rect x="652.25" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 30 Jul 2026: 5 contributions</title></rect>
+<rect x="652.25" y="426.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Fri, 31 Jul 2026: 1 contribution</title></rect>
+<text x="652.2" y="343" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="0">Aug</text>
+<rect x="652.25" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 01 Aug 2026: 1 contribution</title></rect>
+<rect x="668.5" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 02 Aug 2026: 0 contributions</title></rect>
+<rect x="668.5" y="361.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Mon, 03 Aug 2026: 12 contributions</title></rect>
+<rect x="668.5" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 04 Aug 2026: 7 contributions</title></rect>
+<rect x="668.5" y="393.5" width="11.9" height="11.9" rx="2" fill="#6de8a5"><title>Wed, 05 Aug 2026: 30 contributions</title></rect>
+<rect x="668.5" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 06 Aug 2026: 1 contribution</title></rect>
+<rect x="668.5" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 07 Aug 2026: 0 contributions</title></rect>
+<rect x="668.5" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 08 Aug 2026: 0 contributions</title></rect>
+<rect x="684.75" y="458.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sun, 09 Aug 2026: 2 contributions</title></rect>
+<rect x="684.75" y="361.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Mon, 10 Aug 2026: 11 contributions</title></rect>
+<rect x="684.75" y="377.25" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Tue, 11 Aug 2026: 14 contributions</title></rect>
+<rect x="684.75" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 12 Aug 2026: 0 contributions</title></rect>
+<rect x="684.75" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 13 Aug 2026: 0 contributions</title></rect>
+<rect x="684.75" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 14 Aug 2026: 0 contributions</title></rect>
+<rect x="684.75" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 15 Aug 2026: 2 contributions</title></rect>
+<rect x="701.0" y="458.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sun, 16 Aug 2026: 2 contributions</title></rect>
+<rect x="701.0" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 17 Aug 2026: 0 contributions</title></rect>
+<rect x="701.0" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 18 Aug 2026: 7 contributions</title></rect>
+<rect x="701.0" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 19 Aug 2026: 2 contributions</title></rect>
+<rect x="701.0" y="409.75" width="11.9" height="11.9" rx="2" fill="#1ab9c6"><title>Thu, 20 Aug 2026: 18 contributions</title></rect>
+<rect x="701.0" y="426.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Fri, 21 Aug 2026: 1 contribution</title></rect>
+<rect x="701.0" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 22 Aug 2026: 1 contribution</title></rect>
+<rect x="717.25" y="458.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sun, 23 Aug 2026: 1 contribution</title></rect>
+<rect x="717.25" y="361.0" width="11.9" height="11.9" rx="2" fill="#1ab9c6"><title>Mon, 24 Aug 2026: 18 contributions</title></rect>
+<rect x="717.25" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 25 Aug 2026: 0 contributions</title></rect>
+<rect x="717.25" y="393.5" width="11.9" height="11.9" rx="2" fill="#6de8a5"><title>Wed, 26 Aug 2026: 39 contributions</title></rect>
+<rect x="717.25" y="409.75" width="11.9" height="11.9" rx="2" fill="#6de8a5"><title>Thu, 27 Aug 2026: 26 contributions</title></rect>
+<rect x="717.25" y="426.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Fri, 28 Aug 2026: 6 contributions</title></rect>
+<rect x="717.25" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 29 Aug 2026: 2 contributions</title></rect>
+<rect x="733.5" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 30 Aug 2026: 0 contributions</title></rect>
+<rect x="733.5" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 31 Aug 2026: 5 contributions</title></rect>
+<text x="733.5" y="343" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="0">Sep</text>
+<rect x="733.5" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 01 Sep 2026: 3 contributions</title></rect>
+<rect x="733.5" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 02 Sep 2026: 5 contributions</title></rect>
+<rect x="733.5" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 03 Sep 2026: 5 contributions</title></rect>
+<rect x="733.5" y="426.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Fri, 04 Sep 2026: 4 contributions</title></rect>
+<rect x="733.5" y="442.25" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Sat, 05 Sep 2026: 10 contributions</title></rect>
+<rect x="749.75" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 06 Sep 2026: 0 contributions</title></rect>
+<rect x="749.75" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 07 Sep 2026: 1 contribution</title></rect>
+<rect x="749.75" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 08 Sep 2026: 2 contributions</title></rect>
+<rect x="749.75" y="393.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Wed, 09 Sep 2026: 0 contributions</title></rect>
+<rect x="749.75" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 10 Sep 2026: 0 contributions</title></rect>
+<rect x="749.75" y="426.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Fri, 11 Sep 2026: 0 contributions</title></rect>
+<rect x="749.75" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 12 Sep 2026: 0 contributions</title></rect>
+<rect x="766.0" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 13 Sep 2026: 0 contributions</title></rect>
+<rect x="766.0" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 14 Sep 2026: 1 contribution</title></rect>
+<rect x="766.0" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 15 Sep 2026: 2 contributions</title></rect>
+<rect x="766.0" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 16 Sep 2026: 5 contributions</title></rect>
+<rect x="766.0" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 17 Sep 2026: 5 contributions</title></rect>
+<rect x="766.0" y="426.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Fri, 18 Sep 2026: 1 contribution</title></rect>
+<rect x="766.0" y="442.25" width="11.9" height="11.9" rx="2" fill="#1ab9c6"><title>Sat, 19 Sep 2026: 20 contributions</title></rect>
+<rect x="782.25" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 20 Sep 2026: 0 contributions</title></rect>
+<rect x="782.25" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 21 Sep 2026: 6 contributions</title></rect>
+<rect x="782.25" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 22 Sep 2026: 2 contributions</title></rect>
+<rect x="782.25" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 23 Sep 2026: 2 contributions</title></rect>
+<rect x="782.25" y="409.75" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Thu, 24 Sep 2026: 0 contributions</title></rect>
+<rect x="782.25" y="426.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Fri, 25 Sep 2026: 10 contributions</title></rect>
+<rect x="782.25" y="442.25" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Sat, 26 Sep 2026: 16 contributions</title></rect>
+<rect x="798.5" y="458.5" width="11.9" height="11.9" rx="2" fill="#6de8a5"><title>Sun, 27 Sep 2026: 56 contributions</title></rect>
+<rect x="798.5" y="361.0" width="11.9" height="11.9" rx="2" fill="#6de8a5"><title>Mon, 28 Sep 2026: 57 contributions</title></rect>
+<rect x="798.5" y="377.25" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Tue, 29 Sep 2026: 9 contributions</title></rect>
+<rect x="798.5" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 30 Sep 2026: 5 contributions</title></rect>
+<text x="798.5" y="343" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="0">Oct</text>
+<rect x="798.5" y="409.75" width="11.9" height="11.9" rx="2" fill="#1ab9c6"><title>Thu, 01 Oct 2026: 20 contributions</title></rect>
+<rect x="798.5" y="426.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Fri, 02 Oct 2026: 10 contributions</title></rect>
+<rect x="798.5" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 03 Oct 2026: 0 contributions</title></rect>
+<rect x="814.75" y="458.5" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sun, 04 Oct 2026: 0 contributions</title></rect>
+<rect x="814.75" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 05 Oct 2026: 0 contributions</title></rect>
+<rect x="814.75" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 06 Oct 2026: 0 contributions</title></rect>
+<rect x="814.75" y="393.5" width="11.9" height="11.9" rx="2" fill="#1ab9c6"><title>Wed, 07 Oct 2026: 25 contributions</title></rect>
+<rect x="814.75" y="409.75" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Thu, 08 Oct 2026: 8 contributions</title></rect>
+<rect x="814.75" y="426.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Fri, 09 Oct 2026: 12 contributions</title></rect>
+<rect x="814.75" y="442.25" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Sat, 10 Oct 2026: 17 contributions</title></rect>
+<rect x="831.0" y="458.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sun, 11 Oct 2026: 3 contributions</title></rect>
+<rect x="831.0" y="361.0" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Mon, 12 Oct 2026: 0 contributions</title></rect>
+<rect x="831.0" y="377.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Tue, 13 Oct 2026: 3 contributions</title></rect>
+<rect x="831.0" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 14 Oct 2026: 1 contribution</title></rect>
+<rect x="831.0" y="409.75" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Thu, 15 Oct 2026: 12 contributions</title></rect>
+<rect x="831.0" y="426.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Fri, 16 Oct 2026: 7 contributions</title></rect>
+<rect x="831.0" y="442.25" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Sat, 17 Oct 2026: 16 contributions</title></rect>
+<rect x="847.25" y="458.5" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Sun, 18 Oct 2026: 12 contributions</title></rect>
+<rect x="847.25" y="361.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Mon, 19 Oct 2026: 15 contributions</title></rect>
+<rect x="847.25" y="377.25" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Tue, 20 Oct 2026: 16 contributions</title></rect>
+<rect x="847.25" y="393.5" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Wed, 21 Oct 2026: 15 contributions</title></rect>
+<rect x="847.25" y="409.75" width="11.9" height="11.9" rx="2" fill="#1ab9c6"><title>Thu, 22 Oct 2026: 19 contributions</title></rect>
+<rect x="847.25" y="426.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Fri, 23 Oct 2026: 16 contributions</title></rect>
+<rect x="847.25" y="442.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Sat, 24 Oct 2026: 0 contributions</title></rect>
+<rect x="863.5" y="458.5" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Sun, 25 Oct 2026: 14 contributions</title></rect>
+<rect x="863.5" y="361.0" width="11.9" height="11.9" rx="2" fill="#6de8a5"><title>Mon, 26 Oct 2026: 29 contributions</title></rect>
+<rect x="863.5" y="377.25" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Tue, 27 Oct 2026: 16 contributions</title></rect>
+<rect x="863.5" y="393.5" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Wed, 28 Oct 2026: 13 contributions</title></rect>
+<rect x="863.5" y="409.75" width="11.9" height="11.9" rx="2" fill="#1ab9c6"><title>Thu, 29 Oct 2026: 18 contributions</title></rect>
+<rect x="863.5" y="426.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Fri, 30 Oct 2026: 11 contributions</title></rect>
+<rect x="863.5" y="442.25" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sat, 31 Oct 2026: 1 contribution</title></rect>
+<text x="879.8" y="343" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="0">Nov</text>
+<rect x="879.75" y="458.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Sun, 01 Nov 2026: 3 contributions</title></rect>
+<rect x="879.75" y="361.0" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Mon, 02 Nov 2026: 5 contributions</title></rect>
+<rect x="879.75" y="377.25" width="11.9" height="11.9" rx="2" fill="#172c3d"><title>Tue, 03 Nov 2026: 0 contributions</title></rect>
+<rect x="879.75" y="393.5" width="11.9" height="11.9" rx="2" fill="#19517e"><title>Wed, 04 Nov 2026: 1 contribution</title></rect>
+<rect x="879.75" y="409.75" width="11.9" height="11.9" rx="2" fill="#6de8a5"><title>Thu, 05 Nov 2026: 29 contributions</title></rect>
+<rect x="879.75" y="426.0" width="11.9" height="11.9" rx="2" fill="#247fbb"><title>Fri, 06 Nov 2026: 16 contributions</title></rect>
+<rect x="879.75" y="442.25" width="11.9" height="11.9" rx="2" fill="#6de8a5"><title>Sat, 07 Nov 2026: 34 contributions</title></rect>
+<rect x="896.0" y="458.5" width="11.9" height="11.9" rx="2" fill="#1ab9c6"><title>Sun, 08 Nov 2026: 22 contributions</title></rect>
+<text x="51" y="501" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="500" letter-spacing="0">Less</text>
+<rect x="90" y="489" width="13" height="13" rx="2" fill="#172c3d"/>
+<rect x="111" y="489" width="13" height="13" rx="2" fill="#19517e"/>
+<rect x="132" y="489" width="13" height="13" rx="2" fill="#247fbb"/>
+<rect x="153" y="489" width="13" height="13" rx="2" fill="#1ab9c6"/>
+<rect x="174" y="489" width="13" height="13" rx="2" fill="#6de8a5"/>
+<text x="213" y="501" text-anchor="start" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="500" letter-spacing="0">More</text>
+<text x="909" y="502" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="500" letter-spacing="0">Colors represent contribution ranges, not individual commits.</text>
+<path d="M49 527 H912" stroke="#234457"/>
+<text x="49" y="560" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1">RECENT PUBLIC ACTIVITY</text>
+<text x="912" y="560" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="0">5 RECENT EVENTS DISPLAYED</text>
+<circle cx="59" cy="597" r="4" fill="#28c5d5"/>
+<text x="76" y="603" text-anchor="start" fill="#28c5d5" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">PULL REQUEST</text>
+<text x="240" y="603" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="0">antoniusjairus4</text>
+<text x="904" y="603" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="0">08 Nov 2026</text>
+<circle cx="59" cy="637" r="4" fill="#348de7"/>
+<text x="76" y="643" text-anchor="start" fill="#348de7" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">PUSH</text>
+<text x="240" y="643" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="0">Venkatesan</text>
+<text x="904" y="643" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="0">04 Nov 2026</text>
+<circle cx="59" cy="677" r="4" fill="#6de8a5"/>
+<text x="76" y="683" text-anchor="start" fill="#6de8a5" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">PUSH</text>
+<text x="240" y="683" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="0">Venkatesan</text>
+<text x="904" y="683" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="0">02 Nov 2026</text>
+<circle cx="59" cy="717" r="4" fill="#af98fc"/>
+<text x="76" y="723" text-anchor="start" fill="#af98fc" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">PUSH</text>
+<text x="240" y="723" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="0">Venkatesan</text>
+<text x="904" y="723" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="0">01 Nov 2026</text>
+<circle cx="59" cy="757" r="4" fill="#28c5d5"/>
+<text x="76" y="763" text-anchor="start" fill="#28c5d5" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">PUSH</text>
+<text x="240" y="763" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="0">Venkatesan</text>
+<text x="904" y="763" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="0">31 Oct 2026</text>
 </svg>

@@ -94,6 +94,64 @@ Exploring multimodal machine learning approaches to Alzheimer's disease research
 
 ---
 
+<img src="./assets/achievement-vault.svg" width="100%" alt="Achievement Vault featuring verified GitHub achievements and profile highlights" />
+
+<div align="center">
+
+<table>
+<tr>
+<td width="34%" align="center" valign="top">
+
+<a href="https://github.com/antoniusjairus4?achievement=yolo&amp;tab=achievements">
+<img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="114" alt="Official GitHub YOLO achievement badge" />
+</a>
+
+**YOLO**
+
+<sub>GITHUB ACHIEVEMENT</sub>
+
+Merged a pull request without a review.
+
+</td>
+<td width="34%" align="center" valign="top">
+
+<a href="https://github.com/antoniusjairus4?achievement=quickdraw&amp;tab=achievements">
+<img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="114" alt="Official GitHub Quickdraw achievement badge" />
+</a>
+
+**QUICKDRAW**
+
+<sub>GITHUB ACHIEVEMENT</sub>
+
+Closed an issue or pull request shortly after opening it.
+
+</td>
+<td width="32%" align="center" valign="top">
+
+<br/>
+
+<a href="https://github.com/antoniusjairus4">
+<img src="https://img.shields.io/badge/GitHub-PRO-8B5CF6?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub Pro profile highlight" />
+</a>
+
+<br/><br/>
+
+**GITHUB PRO**
+
+<sub>PROFILE HIGHLIGHT</sub>
+
+My GitHub Pro account badge.
+
+</td>
+</tr>
+</table>
+
+<sub>Achievements earned on GitHub. Select an achievement to view its official profile details.</sub>
+
+</div>
+
+---
+
 <img src="./assets/section-04-build-log.svg" width="100%" alt="04 — The Build Log, live GitHub contribution activity" />
 
 **PROOF OF WORK. NOT PROMISES.**

@@ -1,0 +1,69 @@
+name: Update Commit Pet
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily at 01:15 UTC (06:45 India Standard Time)
+    - cron: "15 1 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/commit-pet.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-profile-commit-pet
+  cancel-in-progress: false
+
+jobs:
+  update-pet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Checkout Commit Pet generator
+        uses: actions/checkout@v4
+        with:
+          repository: yukurash/commit-pet
+          ref: v1
+          path: .commit-pet-generator
+          persist-credentials: false
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate animated cyan pet from real contributions
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node .commit-pet-generator/src/generate.js \
+            --user antoniusjairus4 \
+            --species cat \
+            --name Byte \
+            --theme en \
+            --out assets/commit-pet.svg
+
+          test -s assets/commit-pet.svg
+          grep -q '<svg' assets/commit-pet.svg
+          grep -q 'Byte' assets/commit-pet.svg
+          grep -q '<animate' assets/commit-pet.svg
+
+      - name: Commit changed pet graphic only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add assets/commit-pet.svg
+          if git diff --cached --quiet; then
+            echo "Pet is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(profile): refresh animated Commit Pet"
+          git push

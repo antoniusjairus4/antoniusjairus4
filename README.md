@@ -28,9 +28,6 @@ I work at the intersection of **engineering, design, product thinking, and exper
 From immersive 3D portfolio experiences to real-world management systems,  
 I like building things that people can actually use.
 
-> Less talking about what I can build.  
-> More showing what I've shipped.
-
 ---
 
 <img src="./assets/section-02-work.svg" width="100%" alt="02 — Selected Work, digital projects and experiences" />

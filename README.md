@@ -18,7 +18,7 @@ and digital experiences that feel memorable.
 
 ---
 
-### `01 / THE BUILDER`
+<img src="./assets/section-01-builder.svg" width="100%" alt="01 — The Builder, identity and creative engineering" />
 
 I'm **Antonius Jairus R**, a Computer Science engineering student  
 specializing in Cybersecurity at Sri Krishna College of Engineering and Technology.
@@ -33,7 +33,7 @@ I like building things that people can actually use.
 
 ---
 
-### `02 / SELECTED WORK`
+<img src="./assets/section-02-work.svg" width="100%" alt="02 — Selected Work, digital projects and experiences" />
 
 <div align="center">
 
@@ -111,7 +111,7 @@ Alzheimer's disease prediction.
 
 ---
 
-### `03 / THE TOOLKIT`
+<img src="./assets/section-03-toolkit.svg" width="100%" alt="03 — The Toolkit, technology and craft" />
 
 <div align="center">
 
@@ -147,7 +147,7 @@ Alzheimer's disease prediction.
 
 ---
 
-### `04 / THE BUILD LOG`
+<img src="./assets/section-04-build-log.svg" width="100%" alt="04 — The Build Log, live GitHub contribution activity" />
 
 **PROOF OF WORK. NOT PROMISES.**
 
@@ -171,7 +171,7 @@ A living pixel-art koi influenced by public contributions, languages and streaks
 
 ---
 
-### `05 / FEATURED REPOSITORIES`
+<img src="./assets/section-05-repositories.svg" width="100%" alt="05 — Featured Repositories, open-source projects" />
 
 Original repository highlights, linked directly from this custom README.
 
@@ -201,7 +201,7 @@ C++ implementations and systematic problem-solving practice.
 ---
 
 
-### `06 / OPEN TO COLLABORATION`
+<img src="./assets/section-06-collaboration.svg" width="100%" alt="06 — Open to Collaboration, let us build together" />
 
 I enjoy building ambitious ideas, experimental interfaces,  
 and products with real-world impact.

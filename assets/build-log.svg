@@ -411,23 +411,23 @@
 <text x="49" y="560" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1">RECENT PUBLIC ACTIVITY</text>
 <text x="912" y="560" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="0">5 RECENT EVENTS DISPLAYED</text>
 <circle cx="59" cy="597" r="4" fill="#28c5d5"/>
-<text x="76" y="603" text-anchor="start" fill="#28c5d5" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">NEW REPO / BRANCH</text>
-<text x="240" y="603" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="0">antoniusjairus4</text>
+<text x="76" y="603" text-anchor="start" fill="#28c5d5" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">PUSH</text>
+<text x="240" y="603" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="0">Venkatesan</text>
 <text x="904" y="603" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="0">08 Nov 2026</text>
 <circle cx="59" cy="637" r="4" fill="#348de7"/>
-<text x="76" y="643" text-anchor="start" fill="#348de7" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">PUSH</text>
-<text x="240" y="643" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="0">Venkatesan</text>
+<text x="76" y="643" text-anchor="start" fill="#348de7" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">NEW REPO / BRANCH</text>
+<text x="240" y="643" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="0">antoniusjairus4</text>
 <text x="904" y="643" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="0">08 Nov 2026</text>
 <circle cx="59" cy="677" r="4" fill="#6de8a5"/>
-<text x="76" y="683" text-anchor="start" fill="#6de8a5" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">NEW REPO / BRANCH</text>
-<text x="240" y="683" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="0">antoniusjairus4</text>
+<text x="76" y="683" text-anchor="start" fill="#6de8a5" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">PUSH</text>
+<text x="240" y="683" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="0">Venkatesan</text>
 <text x="904" y="683" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="0">08 Nov 2026</text>
 <circle cx="59" cy="717" r="4" fill="#af98fc"/>
-<text x="76" y="723" text-anchor="start" fill="#af98fc" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">PULL REQUEST</text>
+<text x="76" y="723" text-anchor="start" fill="#af98fc" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">NEW REPO / BRANCH</text>
 <text x="240" y="723" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="0">antoniusjairus4</text>
 <text x="904" y="723" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="0">08 Nov 2026</text>
 <circle cx="59" cy="757" r="4" fill="#28c5d5"/>
-<text x="76" y="763" text-anchor="start" fill="#28c5d5" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">PUSH</text>
-<text x="240" y="763" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="0">Venkatesan</text>
-<text x="904" y="763" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="0">04 Nov 2026</text>
+<text x="76" y="763" text-anchor="start" fill="#28c5d5" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="0.7">PULL REQUEST</text>
+<text x="240" y="763" text-anchor="start" fill="#e7f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="0">antoniusjairus4</text>
+<text x="904" y="763" text-anchor="end" fill="#8eafc0" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="0">08 Nov 2026</text>
 </svg>
